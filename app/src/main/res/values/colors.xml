@@ -23,4 +23,10 @@
 	<color name="ellipse_26_color">#ffffff</color>
 	<color name="rectangle_12_color">#1F1F2D</color>
 	<color name="bar_color">#14141E</color>
+	<color name="_bg__albums_color">#000000</color>
+	<color name="_bg__artists_color">#000000</color>
+	<color name="_bg__artist_playlist_color">#000000</color>
+	<color name="_bg__playlist_color">#000000</color>
+	<color name="_bg__splash2_color">#000000</color>
+	<color name="_bg__splash3_color">#000000</color>
 </resources>

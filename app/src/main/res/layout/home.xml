@@ -27,9 +27,6 @@
 			android:layout_height="wrap_content" >
 
 
-
-
-
 			<RelativeLayout android:id="@+id/page_home_ek3"
 				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"

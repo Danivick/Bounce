@@ -144,32 +144,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 			}
 		});
 
-		//Navigation Bar
-		vector_ek36.setOnClickListener(new View.OnClickListener() {
+		albums_ek1.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(home_activity.this, home_activity.class);
-				startActivity(intent);
-			}
-		});
-		icon_ek2.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent intent = new Intent(home_activity.this, favorite_activity.class);
-				startActivity(intent);
-			}
-		});
-		vector_ek41.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent intent = new Intent(home_activity.this, profile_activity.class);
-				startActivity(intent);
-			}
-		});
-		rectangle_12.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent intent = new Intent(home_activity.this, song_activity.class);
+				Intent intent = new Intent(home_activity.this, albums_activity.class);
 				startActivity(intent);
 			}
 		});

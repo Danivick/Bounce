@@ -1,5 +1,8 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
 	<!-- 
 	/*
 	 *	This content is generated from the API File Info.
@@ -47,13 +50,13 @@
 					android:layout_width="14dp"
 					android:layout_height="0dp" />
 
-				<ImageView android:id="@+id/vector_ek1"
-					android:src="@drawable/vector_ek1"
-					android:contentDescription="vector_ek1"
-					 android:layout_marginStart="5dp"
-					android:layout_marginTop="5dp"
+				<ImageView
+					android:id="@+id/vector_ek1"
 					android:layout_width="7dp"
-					android:layout_height="14dp" />
+					android:layout_height="14dp"
+					android:layout_marginStart="5dp"
+					android:contentDescription="vector_ek1"
+					android:src="@drawable/vector_ek1" />
 
 			</RelativeLayout>
 
@@ -246,4 +249,15 @@
 		</RelativeLayout>
 
 	</ScrollView>
+	<com.google.android.material.bottomnavigation.BottomNavigationView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@id/navbar"
+		android:background="@drawable/nav_rectangle_bg4_shape"
+
+		app:itemTextColor="@drawable/selector"
+		app:itemIconTint="@drawable/selector"
+		app:menu="@menu/menu_navigation"
+		android:layout_alignParentBottom="true"/>
+
 </HorizontalScrollView>

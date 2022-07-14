@@ -18,14 +18,20 @@
 package exportkit.figma;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class albums_activity extends Activity {
+import androidx.annotation.NonNull;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+	public class albums_activity extends Activity {
 
 	
 	private View _bg__albums;
@@ -76,7 +82,7 @@ public class albums_activity extends Activity {
 		unknown = (TextView) findViewById(R.id.unknown);
 		whatsapp_audio = (TextView) findViewById(R.id.whatsapp_audio);
 		albums_ek1 = (TextView) findViewById(R.id.albums_ek1);
-		navrectangle_bg3 = (View) findViewById(R.id.navrectangle_bg3);
+
 		vector_ek2 = (ImageView) findViewById(R.id.vector_ek2);
 		vector_ek3 = (ImageView) findViewById(R.id.vector_ek3);
 		vector_ek4 = (ImageView) findViewById(R.id.vector_ek4);
@@ -87,6 +93,39 @@ public class albums_activity extends Activity {
 	
 		
 		//custom code goes here
+		BottomNavigationView bottomNavigationView = findViewById(R.id.navbar);
+
+		bottomNavigationView.setSelectedItemId(R.id.albums);
+
+		bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+			@Override
+			public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+				switch (menuItem.getItemId()){
+					case R.id.home:
+						startActivity(new Intent(getApplicationContext(), home_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.search:
+						startActivity(new Intent(getApplicationContext(), home_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.favorite:
+						startActivity(new Intent(getApplicationContext(), favorite_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.profile:
+
+						return true;
+				}
+				return false;
+			}
+		});
 	
 	}
 }
