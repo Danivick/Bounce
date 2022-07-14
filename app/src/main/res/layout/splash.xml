@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+<ScrollView
+	android:layout_width="394dp"
+	android:layout_height="833dp">
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<RelativeLayout android:id="@+id/page_splash_ek1"
+
+				android:gravity="center"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__splash_ek2"
+					android:background="@drawable/_bg__splash_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="394dp"
+					android:layout_height="896dp" />
+
+				<ImageView android:id="@+id/splash_screen_01_1"
+					android:src="@drawable/splash_screen_01_1"
+					android:contentDescription="splash_screen_01_1"
+					android:layout_width="394dp"
+					android:layout_height="896dp" />
+
+				<TextView android:id="@+id/splash_text"
+					android:fontFamily="@font/poppins_regular"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="19sp"
+					android:textColor="@color/settings_color"
+					android:layout_marginLeft="66dp"
+					android:layout_marginTop="600dp"
+					android:layout_width="270dp"
+					android:layout_height="100.5dp"
+					android:text="@string/the_second_most_popular_place_to_listen_to_music_and_growing_fast__string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

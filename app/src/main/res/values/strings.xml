@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- profile strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="settings_string">Settings</string>
+	<string name="my_playlists_string">My Playlists</string>
+	<string name="queue_settings_string">Queue Settings</string>
+	<string name="volume_level_ek2_string">Volume Level</string>
+	<string name="gapless_playback_ek1_string">Gapless Playback</string>
+	<string name="sleep_timer_ek1_string">Sleep Timer</string>
+	<string name="danivick_string">Danivick</string>
+	<string name="liked_songs_string">Liked Songs</string>
+	<string name="chicago_freestyle___drake_string">Chicago Freestyle - Drake </string>
+	<string name="drake_string">Dark Lane</string>
+	<string name="chicago_freestyle___drake_ek1_string">Chicago Freestyle - Drake </string>
+	<string name="drake_ek1_string">Dark Lane</string>
+	<string name="chicago_freestyle___drake_ek2_string">Chicago Freestyle - Drake </string>
+	<string name="drake_ek2_string">Dark Lane</string>
+	<string name="chicago_freestyle___drake_ek3_string">Chicago Freestyle - Drake </string>
+	<string name="drake_ek3_string">Dark Lane</string>
+	<string name="liked_playlist_ek1_string">Liked Playlists</string>
+	<string name="find_in_liked_songs_string">Find in liked songs</string>
+	<string name="album___aura_string">Album - Aura</string>
+	<string name="vaina_loca___osuna_string">Vaina Loca - Osuna</string>
+	<string name="_1_25_string">1:25</string>
+	<string name="_3_15_string">3:15</string>
+	<string name="from_favorites_string">Playing from Liked Songs</string>
+	<string name="albums_ek1_string">Albums</string>
+	<string name="most_played_ek1_string">Most Played</string>
+	<string name="recently_played_ek1_string">Recently Played</string>
+	<string name="listen_to_sumn_string">Lets listen to something today</string>
+	<string name="welcome_string">Welcome </string>
+	<string name="some_nights_string">Some Nights</string>
+	<string name="saint_jhn_string">SAINt JHN</string>
+	<string name="the_second_most_popular_place_to_listen_to_music_and_growing_fast__string">The second most popular place to listen to music and growing fast. </string>
+	<string name="experience_ad_free_completely_uninterrupted_offline_access_to_all_your_music__string">Experience Ad-Free completely uninterrupted offline access to all your music. </string>
+	<string name="play_offline_string">PlayOffline</string>
+	<string name="osuna_string">Osuna</string>
+	<string name="aura_of_sound_string">Aura of Sound</string>
+	<string name="drake_string2">Drake</string>
+	<string name="scorpion_string">Scorpion</string>
+	<string name="nasty__c_string">Nasty- C</string>
+	<string name="sap_ek1_string">Strike A Pose</string>
+	<string name="unknown_string">Unknown</string>
+	<string name="whatsapp_audio_string">Whatsapp Aud...</string>
+	<string name="splash3_text">The second most popular place to listen to music and growing fast. </string>
+	<string name="discover_new_sound_string">DiscoverNewSound</string>
+	<string name="artist_name_string">Drake</string>
+	<string name="album_song_string">2 Albums | 12 songs</string>
+	<string name="artist_name_ek1_string">Saint Jhn</string>
+	<string name="album_song_ek1_string">1 Albums | 6 songs</string>
+	<string name="artist_name_ek2_string">XXXtentacion</string>
+	<string name="album_song_ek2_string">1 Albums | 2 songs</string>
+	<string name="artist_name_ek3_string">Nasty C</string>
+	<string name="album_song_ek3_string">2 Albums | 3 songs</string>
+	<string name="artists_string">Artists</string>
+
+	<string name="song_name_string">Furthest Thing</string>
+	<string name="song_name_2">Roses</string>
+	<string name="album_song_ek1_string">Saint Jhn</string>
+	<string name="artist_name_ek2_string">Bad Vibes Forever</string>
+	<string name="album_song_ek2_string">XXXtentacion</string>
+	<string name="artist_name_ek3_string">Strike A Pose</string>
+	<string name="album_song_ek3_string">Nasty C</string>
+	<string name="shuffle_all_string">Shuffle All</string>
+	<string name="playlist_string">Playlist</string>
+
+</resources>

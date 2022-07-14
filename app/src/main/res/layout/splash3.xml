@@ -1,0 +1,69 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		splash3
+	 *	@date 		Thursday 14th of July 2022 07:29:03 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/splash3" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__splash3"
+				android:background="@drawable/_bg__splash3_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="394dp"
+				android:layout_height="833dp" />
+
+			<ImageView android:id="@+id/splash2"
+				android:src="@drawable/splash3"
+				android:contentDescription="splash2"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="-31dp"
+				android:layout_width="394dp"
+				android:layout_height="896dp" />
+
+			<TextView android:id="@+id/splash3_text"
+				android:fontFamily="@font/poppins_regular"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="19sp"
+				android:textColor="@color/white"
+				android:layout_marginLeft="66dp"
+				android:layout_marginTop="666dp"
+				android:layout_width="270dp"
+				android:layout_height="100.5dp"
+				android:text="@string/the_second_most_popular_place_to_listen_to_music_and_growing_fast__string"
+				 />
+
+			<TextView android:id="@+id/discover_new_sound"
+				android:fontFamily="@font/poppins_bold"
+				android:textStyle="bold"
+				android:textSize="48sp"
+				android:textColor="@color/white"
+				android:layout_marginLeft="15dp"
+				android:layout_marginTop="137dp"
+				android:layout_width="269dp"
+				android:layout_height="214dp"
+				android:text="Discover \n New \n Sound"
+				 />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- _bg__profile_ek2 from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<solid android:color="@color/_bg__profile_ek2_color" />
+	<gradient android:angle="270" android:type="linear" android:startColor="#ff291f2a" android:endColor="#ff0f0e13" />
+</shape>
+

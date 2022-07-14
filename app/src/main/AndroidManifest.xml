@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="exportkit.figma" >
+
+	<application
+		android:allowBackup="true"
+		android:theme="@style/AppTheme"
+		android:label="Bounce" >
+		<activity
+		android:name=".splash_activity"
+		android:configChanges="orientation|keyboardHidden|screenSize"
+		android:label="Bounce"
+		android:exported="true"  >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+			<activity android:name="exportkit.figma.song_activity"></activity>
+			<activity android:name="exportkit.figma.home_activity"></activity>
+			<activity android:name="exportkit.figma.favorite_activity"></activity>
+			<activity android:name="exportkit.figma.profile_activity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
+	
+	

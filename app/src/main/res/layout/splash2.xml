@@ -1,0 +1,69 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		splash2
+	 *	@date 		Tuesday 12th of July 2022 08:51:45 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/splash2" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__splash2"
+				android:background="@drawable/_bg__splash2_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="394dp"
+				android:layout_height="833dp" />
+
+			<ImageView android:id="@+id/splash_2"
+				android:src="@drawable/splash2"
+				android:contentDescription="splash2"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="-31dp"
+				android:layout_width="394dp"
+				android:layout_height="896dp" />
+
+			<TextView android:id="@+id/experience_ad_free_completely_uninterrupted_offline_access_to_all_your_music_"
+				android:fontFamily="@font/poppins_regular"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="19sp"
+				android:textColor="@color/white"
+				android:layout_marginLeft="43dp"
+				android:layout_marginTop="666dp"
+				android:layout_width="315dp"
+				android:layout_height="100.5dp"
+				android:text="@string/experience_ad_free_completely_uninterrupted_offline_access_to_all_your_music__string"
+				 />
+
+			<TextView android:id="@+id/play_offline"
+				android:fontFamily="@font/poppins_bold"
+				android:textStyle="bold"
+				android:textSize="48sp"
+				android:textColor="@color/white"
+				android:layout_marginLeft="15dp"
+				android:layout_marginTop="137dp"
+				android:layout_width="216dp"
+				android:layout_height="154dp"
+				android:text="Play \nOffline"
+				 />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
