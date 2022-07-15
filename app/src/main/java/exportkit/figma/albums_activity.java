@@ -66,7 +66,40 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 		setContentView(R.layout.albums);
 
 		//custom code goes here
+		BottomNavigationView bottomNavigationView = findViewById(R.id.navbar);
 
+		bottomNavigationView.setSelectedItemId(R.id.albums);
+
+		bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+			@Override
+			public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+				switch (menuItem.getItemId()){
+					case R.id.home:
+						startActivity(new Intent(getApplicationContext(), home_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.search:
+						startActivity(new Intent(getApplicationContext(), home_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.favorite:
+						startActivity(new Intent(getApplicationContext(), favorite_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.profile:
+						startActivity(new Intent(getApplicationContext(), profile_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				return false;
+			}
+		});
 	
 	}
 }

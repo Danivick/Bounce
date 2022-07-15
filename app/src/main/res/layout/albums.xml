@@ -1,4 +1,4 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
@@ -244,5 +244,13 @@
 				 />
 		</RelativeLayout>
 	</ScrollView>
-
-	</HorizontalScrollView>
+	<com.google.android.material.bottomnavigation.BottomNavigationView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@id/navbar"
+		android:background="@drawable/nav_rectangle_bg4_shape"
+		app:itemTextColor="@drawable/selector"
+		app:itemIconTint="@drawable/selector"
+		app:menu="@menu/menu_navigation"
+		android:layout_alignParentBottom="true"/>
+	</RelativeLayout>
