@@ -151,7 +151,20 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 				startActivity(intent);
 			}
 		});
-
+		rectangle_12.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(home_activity.this, song_activity.class);
+				startActivity(intent);
+			}
+		});
+		recently_played_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(home_activity.this, playlist_activity.class);
+				startActivity(intent);
+			}
+		});
 	}
 }
 	

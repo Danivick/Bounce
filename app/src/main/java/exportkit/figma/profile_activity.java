@@ -134,31 +134,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 			}
 		});
 
-		//Navigation Bar
-		vector_ek2.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent intent = new Intent(profile_activity.this, home_activity.class);
-				startActivity(intent);
-			}
-		});
-
-		vector_ek4.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent intent = new Intent(profile_activity.this, favorite_activity.class);
-				startActivity(intent);
-			}
-		});
-
-		vector_ek7.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent intent = new Intent(profile_activity.this, profile_activity.class);
-				startActivity(intent);
-			}
-		});
-	
 	}
 }
 	

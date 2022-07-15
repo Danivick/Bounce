@@ -242,22 +242,7 @@
 				android:layout_height="44dp"
 				android:text="@string/albums_ek1_string"
 				 />
-
-
-
-
 		</RelativeLayout>
-
 	</ScrollView>
-	<com.google.android.material.bottomnavigation.BottomNavigationView
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@id/navbar"
-		android:background="@drawable/nav_rectangle_bg4_shape"
 
-		app:itemTextColor="@drawable/selector"
-		app:itemIconTint="@drawable/selector"
-		app:menu="@menu/menu_navigation"
-		android:layout_alignParentBottom="true"/>
-
-</HorizontalScrollView>
+	</HorizontalScrollView>
