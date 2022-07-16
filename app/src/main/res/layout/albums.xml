@@ -42,21 +42,13 @@
 				android:layout_height="wrap_content"
 				>
 
-				<ImageView android:id="@+id/vector"
-					android:src="@drawable/vector"
+				<ImageView android:id="@+id/back_arrow"
+					android:src="@drawable/ic_back_arrow"
 					android:contentDescription="vector"
-					 android:layout_marginStart="5dp"
-					android:layout_marginTop="12dp"
-					android:layout_width="14dp"
-					android:layout_height="0dp" />
-
-				<ImageView
-					android:id="@+id/vector_ek1"
-					android:layout_width="7dp"
-					android:layout_height="14dp"
-					android:layout_marginStart="5dp"
-					android:contentDescription="vector_ek1"
-					android:src="@drawable/vector_ek1" />
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="24dp"
+					android:layout_height="24dp" />
 
 			</RelativeLayout>
 
