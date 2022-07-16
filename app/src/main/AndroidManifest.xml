@@ -10,6 +10,7 @@
 		android:name=".splash_activity"
 		android:configChanges="orientation|keyboardHidden|screenSize"
 		android:label="Bounce"
+			android:icon="@mipmap/ic_launcher"
 		android:exported="true"  >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
