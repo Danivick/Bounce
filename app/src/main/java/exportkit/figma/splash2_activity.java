@@ -18,6 +18,7 @@
 package exportkit.figma;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -41,12 +42,19 @@ public class splash2_activity extends Activity {
 
 		
 		_bg__splash2 = (View) findViewById(R.id._bg__splash2);
-		splash2 = (ImageView) findViewById(R.id.splash2);
+		splash2 = (ImageView) findViewById(R.id.splash_2);
 		experience_ad_free_completely_uninterrupted_offline_access_to_all_your_music_ = (TextView) findViewById(R.id.experience_ad_free_completely_uninterrupted_offline_access_to_all_your_music_);
 		play_offline = (TextView) findViewById(R.id.play_offline);
 	
 		
 		//custom code goes here
+		splash2.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(splash2_activity.this, splash3_activity.class);
+				startActivity(intent);
+			}
+		});
 	
 	}
 }

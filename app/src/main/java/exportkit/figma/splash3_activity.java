@@ -18,6 +18,7 @@
 package exportkit.figma;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -47,6 +48,13 @@ public class splash3_activity extends Activity {
 	
 		
 		//custom code goes here
+		splash2.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(splash3_activity.this, home_activity.class);
+				startActivity(intent);
+			}
+		});
 	
 	}
 }

@@ -17,12 +17,15 @@
 			</intent-filter>
 		</activity>
 
+
 			<activity android:name="exportkit.figma.song_activity"></activity>
 			<activity android:name="exportkit.figma.home_activity"></activity>
 			<activity android:name="exportkit.figma.favorite_activity"></activity>
 			<activity android:name="exportkit.figma.profile_activity"></activity>
 		    <activity android:name="exportkit.figma.albums_activity"></activity>
-		   <activity android:name="exportkit.figma.playlist_activity"></activity>
+		   	<activity android:name="exportkit.figma.playlist_activity"></activity>
+			<activity android:name="exportkit.figma.splash2_activity"></activity>
+			<activity android:name="exportkit.figma.splash3_activity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

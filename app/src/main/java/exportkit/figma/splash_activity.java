@@ -49,7 +49,7 @@ public class splash_activity extends Activity {
 		splash_screen_01_1.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(splash_activity.this, home_activity.class);
+				Intent intent = new Intent(splash_activity.this, splash2_activity.class);
 				startActivity(intent);
 			}
 		});
