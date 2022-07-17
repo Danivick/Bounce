@@ -28,6 +28,7 @@
 	<string name="_3_15_string">3:15</string>
 	<string name="from_favorites_string">Playing from Liked Songs</string>
 	<string name="albums_ek1_string">Albums</string>
+	<string name="playlists_ek1_string">Playlists</string>
 	<string name="most_played_ek1_string">Most Played</string>
 	<string name="recently_played_ek1_string">Recently Played</string>
 	<string name="listen_to_sumn_string">Lets listen to something today</string>
@@ -60,6 +61,8 @@
 	<string name="song_name_string">Furthest Thing</string>
 	<string name="song_name_2">Roses</string>
 	<string name="shuffle_all_string">Shuffle All</string>
-	<string name="playlist_string">Playlist</string>
+	<string name="recently_played_string">Recently Played</string>
+	<string name="most_played_string">Most Played</string>
+	<string name="artist_playlist">Artist Playlist</string>
 
 </resources>

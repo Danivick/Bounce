@@ -106,7 +106,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 		saint_jhn = (TextView) findViewById(R.id.saint_jhn);
 		ellipse_25 = (View) findViewById(R.id.ellipse_25);
 		polygon_4 = (ImageView) findViewById(R.id.polygon_4);
-	
+
 		
 		//custom code goes here
 
@@ -161,7 +161,14 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 		recently_played_ek1.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(home_activity.this, playlist_activity.class);
+				Intent intent = new Intent(home_activity.this, recently_played_activity.class);
+				startActivity(intent);
+			}
+		});
+		most_played_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(home_activity.this, most_played_activity.class);
 				startActivity(intent);
 			}
 		});

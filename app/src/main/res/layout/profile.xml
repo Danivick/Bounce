@@ -114,17 +114,17 @@
 
 					</RelativeLayout>
 
-					<TextView android:id="@+id/my_playlists"
-						android:fontFamily="@font/poppins_bold"
-						android:textStyle="bold"
-						android:textSize="18sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="9dp"
-						android:layout_marginTop="0dp"
+					<TextView
+						android:id="@+id/my_playlists"
 						android:layout_width="133dp"
 						android:layout_height="40dp"
+						android:layout_marginLeft="9dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="@font/poppins_bold"
 						android:text="@string/my_playlists_string"
-						 />
+						android:textColor="@color/settings_color"
+						android:textSize="18sp"
+						android:textStyle="bold" />
 
 				</RelativeLayout>
 

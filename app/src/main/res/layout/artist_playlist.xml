@@ -410,8 +410,8 @@
 				android:layout_marginLeft="165dp"
 				android:layout_marginTop="54dp"
 				android:layout_width="74dp"
-				android:layout_height="44dp"
-				android:text="@string/playlist_string"
+				android:layout_height="55dp"
+				android:text="@string/artist_playlist"
 				 />
 
 

@@ -1,5 +1,8 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
 	<!-- 
 	/*
 	 *	This content is generated from the API File Info.
@@ -255,25 +258,26 @@
 				android:textColor="@color/white"
 				android:layout_marginLeft="158dp"
 				android:layout_marginTop="54dp"
-				android:layout_width="87dp"
-				android:layout_height="44dp"
-				android:text="@string/playlist_string"
+				android:layout_width="95dp"
+				android:layout_height="55dp"
+				android:text="@string/recently_played_string"
 				 />
 
-			<RelativeLayout android:id="@+id/back_arrow"
+			<RelativeLayout android:id="@+id/back_arrow3"
 				android:layout_marginTop="54dp"
 				android:layout_marginStart="10dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				>
 
-				<ImageView android:id="@+id/back_arrow"
-					android:src="@drawable/ic_back_arrow"
-					android:contentDescription="vector"
+				<ImageView
+					android:id="@+id/back_arrowR"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
-					android:layout_width="24dp"
-					android:layout_height="24dp" />
+					android:contentDescription="vector"
+					android:src="@drawable/ic_back_arrow" />
 
 			</RelativeLayout>
 
@@ -281,4 +285,15 @@
 		</RelativeLayout>
 
 	</ScrollView>
+
+	<com.google.android.material.bottomnavigation.BottomNavigationView
+		android:id="@id/navbar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/nav_rectangle_bg4_shape"
+		app:itemIconTint="@drawable/selector"
+		app:itemTextColor="@drawable/selector"
+		app:menu="@menu/menu_navigation" />
+
 </RelativeLayout>

@@ -99,6 +99,13 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 	
 		
 		//custom code goes here
+		my_playlists.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(profile_activity.this, playlists_activity.class);
+				startActivity(intent);
+			}
+		});
 
 		BottomNavigationView bottomNavigationView = findViewById(R.id.navbar);
 

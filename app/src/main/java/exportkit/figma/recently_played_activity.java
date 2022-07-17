@@ -5,8 +5,8 @@
 	 *	(Alt+Shift+Ctrl+I).
 	 *
 	 *	@desc 		
-	 *	@file 		albums
-	 *	@date 		Thursday 14th of July 2022 07:29:31 AM
+	 *	@file 		playlist
+	 *	@date 		Thursday 14th of July 2022 07:31:59 AM
 	 *	@title 		Page 1
 	 *	@author 	
 	 *	@keywords 	
@@ -25,54 +25,54 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-	public class albums_activity extends Activity {
+	public class recently_played_activity extends Activity {
 
-
-	private View _bg__albums;
-	private ImageView vector;
-	private ImageView vector_ek1;
-	private ImageView aura;
-	private ImageView oasis;
-	private ImageView sap;
-	private ImageView album_cover;
-	private TextView osuna;
-	private TextView aura_of_sound;
-	private TextView drake;
-	private TextView scorpion;
-	private TextView nasty__c;
-	private TextView sap_ek1;
-	private TextView unknown;
-	private TextView whatsapp_audio;
-	private TextView albums_ek1;
-	private View navrectangle_bg3;
-	private ImageView vector_ek2;
-	private ImageView vector_ek3;
-	private ImageView vector_ek4;
-	private ImageView vector_ek5;
-	private ImageView vector_ek6;
-	private ImageView vector_ek7;
-	private ImageView icon;
+	
+	private View _bg__playlist;
+	private ImageView playlist_cover;
+	private TextView artist_name;
+	private TextView song_name;
+	private ImageView drakepic;
+	private TextView artist_name_2;
+	private TextView song_name_2;
+	private ImageView darklane4_ek1;
+	private TextView artist_name_ek2;
+	private TextView album_song_ek2;
 	private ImageView back_arrow;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.albums);
+		setContentView(R.layout.recently_played);
 
-		back_arrow = (ImageView) findViewById(R.id.back_arrow1);
+		
+		_bg__playlist = (View) findViewById(R.id._bg__playlist);
+		playlist_cover = (ImageView) findViewById(R.id.playlist_cover);
+		artist_name = (TextView) findViewById(R.id.artist_name);
+		song_name = (TextView) findViewById(R.id.song_name);
+		drakepic = (ImageView) findViewById(R.id.drakepic);
+		artist_name_2 = (TextView) findViewById(R.id.artist_name_2);
+		song_name_2 = (TextView) findViewById(R.id.song_name_2);
+		darklane4_ek1 = (ImageView) findViewById(R.id.darklane4_ek1);
+		artist_name_ek2 = (TextView) findViewById(R.id.artist_name_ek2);
+		album_song_ek2 = (TextView) findViewById(R.id.album_song_ek2);
+		back_arrow = (ImageView) findViewById(R.id.back_arrowR);
+	
 
+		
 		//custom code goes here
 		back_arrow.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(albums_activity.this, home_activity.class);
+				Intent intent = new Intent(recently_played_activity.this, home_activity.class);
 				startActivity(intent);
 			}
 		});
@@ -111,7 +111,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 				return false;
 			}
 		});
-	
 	}
 }
 	
