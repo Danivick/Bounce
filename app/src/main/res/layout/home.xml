@@ -114,21 +114,23 @@
 						android:layout_height="wrap_content"
 						>
 
-						<ImageView android:id="@+id/artist1"
-							android:src="@drawable/artists1"
-							android:contentDescription="drake artist"
+						<ImageView
+							android:id="@+id/artist1"
+							android:layout_width="143dp"
+							android:layout_height="169dp"
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="143dp"
-							android:layout_height="169dp" />
+							android:contentDescription="drake artist"
+							android:src="@drawable/artists1" />
 
-						<ImageView android:id="@+id/artist2"
-							android:src="@drawable/artists2"
-							android:contentDescription="3d model"
+						<ImageView
+							android:id="@+id/artist2"
+							android:layout_width="143dp"
+							android:layout_height="169dp"
 							android:layout_marginStart="155dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="143dp"
-							android:layout_height="169dp" />
+							android:contentDescription="3d model"
+							android:src="@drawable/artists2" />
 
 						<ImageView android:id="@+id/artist3"
 							android:src="@drawable/nastyc"

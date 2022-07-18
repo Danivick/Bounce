@@ -37,6 +37,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 	private View _bg__favorite_ek2;
 	private ImageView vector_ek8;
 	private ImageView vector_ek9;
+	private ImageView backarrow;
 
 
 	@Override
@@ -46,6 +47,16 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 		setContentView(R.layout.favorite);
 
 		//custom code goes here
+
+		backarrow = (ImageView) findViewById(R.id.back_arrow8);
+
+		backarrow.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(getApplicationContext(), home_activity.class);
+				startActivity(intent);
+			}
+		});
 
 		BottomNavigationView bottomNavigationView = findViewById(R.id.navbar);
 
@@ -62,7 +73,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 				}
 				switch (menuItem.getItemId()){
 					case R.id.search:
-						startActivity(new Intent(getApplicationContext(), home_activity.class));
+						startActivity(new Intent(getApplicationContext(), search_activity.class));
 						overridePendingTransition(0,0);
 						return true;
 				}

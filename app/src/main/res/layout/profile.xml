@@ -4,6 +4,13 @@
 	android:layout_height="wrap_content"
 	xmlns:app="http://schemas.android.com/apk/res-auto">
 
+	<View   android:id="@+id/_bg__profile_ek2"
+		android:background="@drawable/_bg__profile_ek2_shape"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="0dp"
+		android:layout_width="394dp"
+		android:layout_height="896dp" />
+
 	<ScrollView android:id="@+id/profile" 
 		android:layout_width="394dp"
 		android:layout_height="match_parent" >
@@ -20,36 +27,22 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__profile_ek2"
-					android:background="@drawable/_bg__profile_ek2_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="394dp"
-					android:layout_height="896dp" />
 
-
-				<RelativeLayout android:id="@+id/arrow_left"
-					android:layout_marginTop="54dp"
-					android:layout_marginStart="10dp"
+				<RelativeLayout
+					android:id="@+id/arrow_left"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="54dp">
 
-					<ImageView android:id="@+id/vector"
-						android:src="@drawable/vector"
+					<ImageView
+						android:id="@+id/back_arrow"
+						android:layout_width="24dp"
+						android:layout_height="24dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
 						android:contentDescription="vector"
-						 android:layout_marginStart="5dp"
-						android:layout_marginTop="12dp"
-						android:layout_width="14dp"
-						android:layout_height="0dp" />
-
-					<ImageView android:id="@+id/vector_ek1"
-						android:src="@drawable/vector_ek1"
-						android:contentDescription="vector_ek1"
-						 android:layout_marginStart="5dp"
-						android:layout_marginTop="5dp"
-						android:layout_width="7dp"
-						android:layout_height="14dp" />
+						android:src="@drawable/ic_back_arrow" />
 
 				</RelativeLayout>
 

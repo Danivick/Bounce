@@ -18,32 +18,28 @@
 package exportkit.figma;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class artists_activity extends Activity {
+import androidx.annotation.NonNull;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+	public class artists_activity extends Activity {
 
 	
 	private View _bg__artists;
-	private ImageView vector;
-	private ImageView vector_ek1;
-	private TextView artist_name;
-	private TextView album_song;
+
+	private ImageView back_arrow2;
 	private ImageView darklane4;
-	private TextView artist_name_ek1;
-	private TextView album_song_ek1;
-	private ImageView darklane4_ek1;
-	private TextView artist_name_ek2;
-	private TextView album_song_ek2;
-	private ImageView darklane4_ek2;
-	private TextView artist_name_ek3;
-	private TextView album_song_ek3;
-	private ImageView darklane4_ek3;
-	private TextView artists;
+	private TextView artist_name;
+
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -53,25 +49,70 @@ public class artists_activity extends Activity {
 
 		
 		_bg__artists = (View) findViewById(R.id._bg__artists);
-		vector = (ImageView) findViewById(R.id.vector);
-		vector_ek1 = (ImageView) findViewById(R.id.vector_ek1);
-		artist_name = (TextView) findViewById(R.id.artist_name);
-		album_song = (TextView) findViewById(R.id.album_song);
+
+		back_arrow2 = (ImageView) findViewById(R.id.back_arrow2);
 		darklane4 = (ImageView) findViewById(R.id.darklane4);
-		artist_name_ek1 = (TextView) findViewById(R.id.artist_name_ek1);
-		album_song_ek1 = (TextView) findViewById(R.id.album_song_ek1);
-		darklane4_ek1 = (ImageView) findViewById(R.id.darklane4_ek1);
-		artist_name_ek2 = (TextView) findViewById(R.id.artist_name_ek2);
-		album_song_ek2 = (TextView) findViewById(R.id.album_song_ek2);
-		darklane4_ek2 = (ImageView) findViewById(R.id.darklane4_ek2);
-		artist_name_ek3 = (TextView) findViewById(R.id.artist_name_ek3);
-		album_song_ek3 = (TextView) findViewById(R.id.album_song_ek3);
-		darklane4_ek3 = (ImageView) findViewById(R.id.darklane4_ek3);
-		artists = (TextView) findViewById(R.id.artists);
+		artist_name = (TextView) findViewById(R.id.artist_name);
 	
 		
 		//custom code goes here
-	
+		back_arrow2.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(getApplicationContext(), home_activity.class);
+				startActivity(intent);
+			}
+		});
+
+		darklane4.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(getApplicationContext(), artist_playlist_activity.class);
+				startActivity(intent);
+			}
+		});
+		artist_name.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(getApplicationContext(), artist_playlist_activity.class);
+				startActivity(intent);
+			}
+		});
+
+		BottomNavigationView bottomNavigationView = findViewById(R.id.navbar);
+
+		bottomNavigationView.setSelectedItemId(R.id.artists);
+
+		bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+			@Override
+			public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+				switch (menuItem.getItemId()){
+					case R.id.home:
+						startActivity(new Intent(getApplicationContext(), home_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.search:
+						startActivity(new Intent(getApplicationContext(), search_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.favorite:
+						startActivity(new Intent(getApplicationContext(), favorite_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				switch (menuItem.getItemId()){
+					case R.id.profile:
+						startActivity(new Intent(getApplicationContext(), profile_activity.class));
+						overridePendingTransition(0,0);
+						return true;
+				}
+				return false;
+			}
+		});
 	}
 }
 	

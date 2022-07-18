@@ -1,5 +1,8 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
 	<!-- 
 	/*
 	 *	This content is generated from the API File Info.
@@ -15,6 +18,13 @@
 	 *
 	 */
 	-->
+	<View   android:id="@+id/_bg__artist_playlist"
+		android:background="@drawable/_bg__artist_playlist_shape"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="0dp"
+		android:layout_width="394dp"
+		android:layout_height="896dp" />
+
 	<ScrollView android:id="@+id/artist_playlist" 
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
@@ -23,14 +33,6 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
 
-			<View   android:id="@+id/_bg__artist_playlist"
-				android:background="@drawable/_bg__artist_playlist_shape"
-				 android:layout_marginStart="0dp"
-				android:layout_marginTop="0dp"
-				android:layout_width="394dp"
-				android:layout_height="896dp" />
-
-
 			<RelativeLayout android:id="@+id/frame_14"
 				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"
@@ -38,13 +40,14 @@
 				android:layout_height="wrap_content"
 				>
 
-				<ImageView android:id="@+id/playlist_cover_drake"
-					android:src="@drawable/playlist_cover_drake"
-					android:contentDescription="playlist_cover_drake"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="-57dp"
+				<ImageView
+					android:id="@+id/playlist_cover_drake"
 					android:layout_width="394dp"
-					android:layout_height="394dp" />
+					android:layout_height="394dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-57dp"
+					android:contentDescription="playlist_cover_drake"
+					android:src="@drawable/playlist_cover_drake" />
 
 			</RelativeLayout>
 
@@ -383,21 +386,14 @@
 				android:layout_height="wrap_content"
 				>
 
-				<ImageView android:id="@+id/vector"
-					android:src="@drawable/vector"
+				<ImageView
+					android:id="@+id/back_arrow3"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
 					android:contentDescription="vector"
-					android:layout_marginStart="5dp"
-					android:layout_marginTop="11dp"
-					android:layout_width="14dp"
-					android:layout_height="2dp" />
-
-				<ImageView android:id="@+id/vector_ek1"
-					android:src="@drawable/vector_ek1"
-					android:contentDescription="vector_ek1"
-					android:layout_marginStart="5dp"
-					android:layout_marginTop="5dp"
-					android:layout_width="7dp"
-					android:layout_height="14dp" />
+					android:src="@drawable/ic_back_arrow" />
 
 			</RelativeLayout>
 
@@ -408,14 +404,23 @@
 				android:textSize="20sp"
 				android:textColor="@color/white"
 				android:layout_marginLeft="165dp"
-				android:layout_marginTop="54dp"
+				android:layout_marginTop="50dp"
 				android:layout_width="74dp"
-				android:layout_height="55dp"
-				android:text="@string/artist_playlist"
+				android:layout_height="40dp"
+				android:text="Drake"
 				 />
 
 
 		</RelativeLayout>
 
 	</ScrollView>
-</HorizontalScrollView>
+	<com.google.android.material.bottomnavigation.BottomNavigationView
+		android:id="@id/navbar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/nav_rectangle_bg4_shape"
+		app:itemIconTint="@drawable/selector"
+		app:itemTextColor="@drawable/selector"
+		app:menu="@menu/menu_navigation" />
+</RelativeLayout>

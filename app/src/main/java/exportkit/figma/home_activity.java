@@ -35,7 +35,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 	
 	private View _bg__home_ek4;
-	private ImageView _300_album_80039_1_ek1;
+	private ImageView artist1;
 	private ImageView j_balvin_bad_bunny_oasis_2_ek1;
 	private ImageView d3cb603523f4f9197b495f0892139dec_1_ek1;
 	private TextView albums_ek1;
@@ -66,6 +66,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 	private TextView saint_jhn;
 	private View ellipse_25;
 	private ImageView polygon_4;
+	private TextView artists_;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -75,7 +76,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 		
 		_bg__home_ek4 = (View) findViewById(R.id._bg__home_ek4);
-		_300_album_80039_1_ek1 = (ImageView) findViewById(R.id._300_album_80039_1_ek1);
+		artist1 = (ImageView) findViewById(R.id.artist1);
 		j_balvin_bad_bunny_oasis_2_ek1 = (ImageView) findViewById(R.id.j_balvin_bad_bunny_oasis_2_ek1);
 		d3cb603523f4f9197b495f0892139dec_1_ek1 = (ImageView) findViewById(R.id.d3cb603523f4f9197b495f0892139dec_1_ek1);
 		albums_ek1 = (TextView) findViewById(R.id.albums_ek1);
@@ -106,6 +107,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 		saint_jhn = (TextView) findViewById(R.id.saint_jhn);
 		ellipse_25 = (View) findViewById(R.id.ellipse_25);
 		polygon_4 = (ImageView) findViewById(R.id.polygon_4);
+		artists_ = (TextView)  findViewById(R.id.artists_);
 
 		
 		//custom code goes here
@@ -124,7 +126,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 				}
 				switch (menuItem.getItemId()){
 					case R.id.search:
-						startActivity(new Intent(getApplicationContext(), home_activity.class));
+						startActivity(new Intent(getApplicationContext(), search_activity.class));
 						overridePendingTransition(0,0);
 						return true;
 				}
@@ -169,6 +171,20 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 			@Override
 			public void onClick(View view) {
 				Intent intent = new Intent(home_activity.this, most_played_activity.class);
+				startActivity(intent);
+			}
+		});
+		artists_.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(home_activity.this, artists_activity.class);
+				startActivity(intent);
+			}
+		});
+		artist1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(getApplicationContext(), artist_playlist_activity.class);
 				startActivity(intent);
 			}
 		});

@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="exportkit.figma" >
+    package="exportkit.figma">
 
-	<application
-		android:allowBackup="true"
-		android:theme="@style/AppTheme"
-		android:label="Bounce" >
-		<activity
-		android:name=".splash_activity"
-		android:configChanges="orientation|keyboardHidden|screenSize"
-		android:label="Bounce"
-			android:icon="@mipmap/ic_launcher"
-		android:exported="true"  >
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
-		</activity>
+    <application
+        android:allowBackup="true"
+        android:label="Bounce"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash_activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Bounce">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
-			<activity android:name="exportkit.figma.song_activity"></activity>
-			<activity android:name="exportkit.figma.home_activity"></activity>
-			<activity android:name="exportkit.figma.favorite_activity"></activity>
-			<activity android:name="exportkit.figma.profile_activity"></activity>
-		    <activity android:name="exportkit.figma.albums_activity"></activity>
-		   	<activity android:name="exportkit.figma.recently_played_activity"></activity>
-			<activity android:name="exportkit.figma.splash2_activity"></activity>
-			<activity android:name="exportkit.figma.splash3_activity"></activity>
-			<activity android:name="exportkit.figma.most_played_activity"></activity>
-			<activity android:name="exportkit.figma.playlists_activity"></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".song_activity" />
+        <activity android:name=".home_activity" />
+        <activity android:name=".favorite_activity" />
+        <activity android:name=".profile_activity" />
+        <activity android:name=".albums_activity" />
+        <activity android:name=".recently_played_activity" />
+        <activity android:name=".splash2_activity" />
+        <activity android:name=".splash3_activity" />
+        <activity android:name=".most_played_activity" />
+        <activity android:name=".playlists_activity" />
+        <activity android:name=".artists_activity" />
+        <activity android:name=".artist_playlist_activity" />
+        <activity android:name=".search_activity" />
 
         <meta-data
             android:name="preloaded_fonts"
@@ -36,5 +38,3 @@
     </application>
 
 </manifest>
-	
-	

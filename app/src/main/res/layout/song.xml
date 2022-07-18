@@ -32,12 +32,13 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__song_ek2"
-					android:background="@drawable/_bg__song_ek2_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__song_ek2"
 					android:layout_width="394dp"
-					android:layout_height="833dp" />
+					android:layout_height="833dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__song_ek2_shape" />
 
 
 				<RelativeLayout android:id="@+id/cover_photo"

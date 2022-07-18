@@ -3,21 +3,16 @@
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
 	xmlns:app="http://schemas.android.com/apk/res-auto">
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		profile
-	 *	@date 		1657543253110
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
+
+
+
+	<View   android:id="@+id/_bg__favorite_ek2"
+		android:background="@drawable/_bg__favorite_ek2_shape"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="0dp"
+		android:layout_width="394dp"
+		android:layout_height="896dp" />
+
 	<ScrollView android:id="@+id/favorite" 
 		android:layout_width="394dp"
 		android:layout_height="match_parent" >
@@ -27,317 +22,325 @@
 			android:layout_height="wrap_content" >
 
 
-
-			<RelativeLayout android:id="@+id/page_favorite_ek1"
-				android:layout_marginTop="0dp"
-				android:layout_marginStart="0dp"
+			<RelativeLayout
+				android:id="@+id/page_favorite_ek1"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
-
-				<View   android:id="@+id/_bg__favorite_ek2"
-					android:background="@drawable/_bg__favorite_ek2_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="394dp"
-					android:layout_height="896dp" />
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
 
 
-				<RelativeLayout android:id="@id/back_arrow"
-					android:layout_marginTop="54dp"
-					android:layout_marginStart="10dp"
+				<RelativeLayout
+					android:id="@id/back_arrow"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="54dp">
 
-					<ImageView android:id="@+id/back_arrow"
-						android:src="@drawable/ic_back_arrow"
-						android:contentDescription="vector"
+					<ImageView
+						android:id="@+id/back_arrow8"
+						android:layout_width="24dp"
+						android:layout_height="24dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
-						android:layout_width="24dp"
-						android:layout_height="24dp" />
+						android:contentDescription="vector"
+						android:src="@drawable/ic_back_arrow" />
 
 				</RelativeLayout>
 
-				<TextView android:id="@+id/liked_songs"
-					android:fontFamily="@font/poppins_bold"
-					android:textStyle="bold"
-					android:textSize="18sp"
-					android:textColor="@color/settings_color"
-					android:layout_marginLeft="20dp"
-					android:layout_marginTop="550dp"
+				<TextView
+					android:id="@+id/liked_songs"
 					android:layout_width="133dp"
 					android:layout_height="40dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="550dp"
+					android:fontFamily="@font/poppins_bold"
 					android:text="@string/liked_songs_string"
-					 />
+					android:textColor="@color/settings_color"
+					android:textSize="18sp"
+					android:textStyle="bold" />
 
 
-				<RelativeLayout android:id="@+id/component_2"
-					android:layout_marginTop="611dp"
-					android:layout_marginStart="30dp"
+				<RelativeLayout
+					android:id="@+id/all_songs_contd"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
-
-					<TextView android:id="@+id/chicago_freestyle___drake"
-						android:fontFamily="@font/poppins_bold"
-						android:textStyle="bold"
-						android:textSize="18sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="268.89dp"
-						android:layout_height="40dp"
-						android:text="@string/chicago_freestyle___drake_string"
-						 />
-
-					<TextView android:id="@+id/drake"
-						android:fontFamily="@font/poppins_regular"
-						android:textSize="14sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="19dp"
-						android:layout_width="88.67dp"
-						android:layout_height="31dp"
-						android:text="@string/drake_string"
-						 />
-
-					<ImageView android:id="@+id/darklane4"
-						android:src="@drawable/darklane4"
-						android:contentDescription="darklane4"
-						 android:layout_marginStart="287.9dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="46.1dp"
-						android:layout_height="38dp" />
-
-				</RelativeLayout>
+					android:layout_marginStart="15dp"
+					android:layout_marginTop="610dp">
 
 
-				<RelativeLayout android:id="@+id/component_3"
-					android:layout_marginTop="665dp"
-					android:layout_marginStart="30dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<TextView android:id="@+id/chicago_freestyle___drake_ek1"
-						android:fontFamily="@font/poppins_bold"
-						android:textStyle="bold"
-						android:textSize="18sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="268.89dp"
-						android:layout_height="40dp"
-						android:text="@string/chicago_freestyle___drake_ek1_string"
-						 />
-
-					<TextView android:id="@+id/drake_ek1"
-						android:fontFamily="@font/poppins_regular"
-						android:textSize="14sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="19dp"
-						android:layout_width="88.67dp"
-						android:layout_height="31dp"
-						android:text="@string/drake_ek1_string"
-						 />
-
-					<ImageView android:id="@+id/darklane3"
-						android:src="@drawable/darklane3"
-						android:contentDescription="darklane3"
-						 android:layout_marginStart="287.9dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="46.1dp"
-						android:layout_height="38dp" />
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/component_4"
-					android:layout_marginTop="719dp"
-					android:layout_marginStart="30dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<TextView android:id="@+id/chicago_freestyle___drake_ek2"
-						android:fontFamily="@font/poppins_bold"
-						android:textStyle="bold"
-						android:textSize="18sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="268.89dp"
-						android:layout_height="40dp"
-						android:text="@string/chicago_freestyle___drake_ek2_string"
-						 />
-
-					<TextView android:id="@+id/drake_ek2"
-						android:fontFamily="@font/poppins_regular"
-						android:textSize="14sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="19dp"
-						android:layout_width="88.67dp"
-						android:layout_height="31dp"
-						android:text="@string/drake_ek2_string"
-						 />
-
-					<ImageView android:id="@+id/darklane2"
-						android:src="@drawable/darklane2"
-						android:contentDescription="darklane2"
-						 android:layout_marginStart="287.9dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="46.1dp"
-						android:layout_height="38dp" />
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/component_5"
-					android:layout_marginTop="772dp"
-					android:layout_marginStart="30dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<TextView android:id="@+id/chicago_freestyle___drake_ek3"
-						android:fontFamily="@font/poppins_bold"
-						android:textStyle="bold"
-						android:textSize="18sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="268.89dp"
-						android:layout_height="40dp"
-						android:text="@string/chicago_freestyle___drake_ek3_string"
-						 />
-
-					<TextView android:id="@+id/drake_ek3"
-						android:fontFamily="@font/poppins_regular"
-						android:textSize="14sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="19dp"
-						android:layout_width="88.67dp"
-						android:layout_height="31dp"
-						android:text="@string/drake_ek3_string"
-						 />
-
-					<ImageView android:id="@+id/darklane"
-						android:src="@drawable/darklane"
-						android:contentDescription="darklane"
-						 android:layout_marginStart="287.9dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="46.1dp"
-						android:layout_height="38dp" />
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/search_ek1"
-					android:layout_marginTop="97dp"
-					android:layout_marginStart="32dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<ImageView android:id="@+id/vector_ek10"
-						android:src="@drawable/vector_ek10"
-						android:contentDescription="vector_ek10"
-						 android:layout_marginStart="3.5dp"
-						android:layout_marginTop="3.5dp"
-						android:layout_width="18.67dp"
-						android:layout_height="18.67dp" />
-
-					<ImageView android:id="@+id/vector_ek11"
-						android:src="@drawable/vector_ek11"
-						android:contentDescription="vector_ek11"
-						 android:layout_marginStart="19.43dp"
-						android:layout_marginTop="19.42dp"
-						android:layout_width="5.07dp"
-						android:layout_height="5.08dp" />
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/liked_playlist"
-					android:layout_marginTop="250dp"
-					android:layout_marginStart="0dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-
-					<RelativeLayout android:id="@+id/frame_11"
-						android:layout_marginTop="54dp"
-						android:layout_marginStart="0dp"
+					<RelativeLayout
+						android:id="@+id/artist_component_5"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
-						>
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp">
 
-						<ImageView android:id="@+id/aura"
-							android:src="@drawable/aura"
-							android:contentDescription="aura"
-							 android:layout_marginStart="11dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="143dp"
-							android:layout_height="169dp" />
+						<TextView
+							android:id="@+id/song_name2"
+							android:layout_width="223dp"
+							android:layout_height="40dp"
+							android:layout_marginLeft="60dp"
+							android:layout_marginTop="5dp"
+							android:fontFamily="@font/poppins_medium"
+							android:text="Furthest Thing"
+							android:textColor="@color/white"
+							android:textSize="18sp" />
 
-						<ImageView android:id="@+id/oasis"
-							android:src="@drawable/oasis"
-							android:contentDescription="oasis"
-							 android:layout_marginStart="167dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="143dp"
-							android:layout_height="169dp" />
+						<TextView
+							android:id="@+id/artist_name2"
+							android:layout_width="59dp"
+							android:layout_height="31dp"
+							android:layout_marginLeft="60dp"
+							android:layout_marginTop="30dp"
+							android:fontFamily="@font/poppins_light"
+							android:text="Drake"
+							android:textColor="@color/white"
+							android:textSize="14sp" />
 
-						<ImageView android:id="@+id/sap"
-							android:src="@drawable/sap"
-							android:contentDescription="sap"
-							 android:layout_marginStart="323dp"
+						<ImageView
+							android:id="@+id/drakepic2"
+							android:layout_width="46.1dp"
+							android:layout_height="50dp"
+							android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="143dp"
-							android:layout_height="169dp" />
+							android:contentDescription="drakepic"
+							android:src="@drawable/drakepic" />
 
 					</RelativeLayout>
 
-					<TextView android:id="@+id/liked_playlist_ek1"
-						android:fontFamily="@font/poppins_bold"
-						android:textStyle="bold"
-						android:textSize="18sp"
-						android:textColor="@color/settings_color"
-						android:layout_marginLeft="20dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="154dp"
-						android:layout_height="67dp"
-						android:text="@string/liked_playlist_ek1_string"
-						 />
+
+					<RelativeLayout
+						android:id="@+id/artist_component_6"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="80dp">
+
+						<TextView
+							android:id="@+id/song_name_6"
+							android:layout_width="223dp"
+							android:layout_height="40dp"
+							android:layout_marginLeft="60dp"
+							android:layout_marginTop="5dp"
+							android:fontFamily="@font/poppins_medium"
+							android:text="Roses"
+							android:textColor="@color/white"
+							android:textSize="18sp" />
+
+						<TextView
+							android:id="@+id/artist_name_6"
+							android:layout_width="83dp"
+							android:layout_height="31dp"
+							android:layout_marginLeft="60dp"
+							android:layout_marginTop="30dp"
+							android:fontFamily="@font/poppins_light"
+							android:text="Saint Jhn"
+							android:textColor="@color/white"
+							android:textSize="14sp" />
+
+						<ImageView
+							android:id="@+id/darklane4_ek12"
+							android:layout_width="46.1dp"
+							android:layout_height="50dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="darklane4_ek1"
+							android:src="@drawable/darklane4_ek1" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout
+						android:id="@+id/artist_component_7"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="160dp">
+
+						<TextView
+							android:id="@+id/song_name_7"
+							android:layout_width="223dp"
+							android:layout_height="40dp"
+							android:layout_marginLeft="60dp"
+							android:layout_marginTop="5dp"
+							android:fontFamily="@font/poppins_medium"
+							android:text="Forever"
+							android:textColor="@color/white"
+							android:textSize="18sp" />
+
+						<TextView
+							android:id="@+id/artist_name_7"
+							android:layout_width="111dp"
+							android:layout_height="31dp"
+							android:layout_marginLeft="60dp"
+							android:layout_marginTop="30dp"
+							android:fontFamily="@font/poppins_light"
+							android:text="Xxxtentacion"
+							android:textColor="@color/white"
+							android:textSize="14sp" />
+
+						<ImageView
+							android:id="@+id/darklane4_ek22"
+							android:layout_width="46.1dp"
+							android:layout_height="50dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="darklane4_ek2"
+							android:src="@drawable/darklane4_ek2" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout
+						android:id="@+id/artist_component_8"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="240dp"
+						android:layout_marginBottom="100dp">
+
+						<TextView
+							android:id="@+id/song_name_8"
+							android:layout_width="223dp"
+							android:layout_height="40dp"
+							android:layout_marginLeft="60dp"
+							android:layout_marginTop="5dp"
+							android:fontFamily="@font/poppins_medium"
+							android:text="Strike A Pose"
+							android:textColor="@color/white"
+							android:textSize="18sp" />
+
+						<TextView
+							android:id="@+id/artist_name_8"
+							android:layout_width="73dp"
+							android:layout_height="31dp"
+							android:layout_marginLeft="60dp"
+							android:layout_marginTop="30dp"
+							android:fontFamily="@font/poppins_light"
+							android:text="Nasty C"
+							android:textColor="@color/white"
+							android:textSize="14sp" />
+
+						<ImageView
+							android:id="@+id/darklane4_ek32"
+							android:layout_width="46.1dp"
+							android:layout_height="50dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="darklane4_ek3"
+							android:src="@drawable/darklane4_ek3" />
+
+					</RelativeLayout>
 
 				</RelativeLayout>
 
-				<EditText android:id="@+id/find_in_liked_songs"
-					android:fontFamily="@font/poppins_regular"
-					android:textSize="16sp"
-					android:textColor="@color/settings_color"
-					android:layout_marginLeft="70dp"
-					android:layout_marginTop="90dp"
+
+				<RelativeLayout
+					android:id="@+id/search_ek1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="32dp"
+					android:layout_marginTop="97dp">
+
+					<ImageView
+						android:id="@+id/vector_ek10"
+						android:layout_width="18.67dp"
+						android:layout_height="18.67dp"
+						android:layout_marginStart="3.5dp"
+						android:layout_marginTop="3.5dp"
+						android:contentDescription="vector_ek10"
+						android:src="@drawable/vector_ek10" />
+
+					<ImageView
+						android:id="@+id/vector_ek11"
+						android:layout_width="5.07dp"
+						android:layout_height="5.08dp"
+						android:layout_marginStart="19.43dp"
+						android:layout_marginTop="19.42dp"
+						android:contentDescription="vector_ek11"
+						android:src="@drawable/vector_ek11" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/liked_playlist"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="250dp">
+
+
+					<RelativeLayout
+						android:id="@+id/frame_11"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="54dp">
+
+						<ImageView
+							android:id="@+id/aura"
+							android:layout_width="143dp"
+							android:layout_height="169dp"
+							android:layout_marginStart="11dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="aura"
+							android:src="@drawable/aura" />
+
+						<ImageView
+							android:id="@+id/oasis"
+							android:layout_width="143dp"
+							android:layout_height="169dp"
+							android:layout_marginStart="167dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="oasis"
+							android:src="@drawable/oasis" />
+
+						<ImageView
+							android:id="@+id/sap"
+							android:layout_width="143dp"
+							android:layout_height="169dp"
+							android:layout_marginStart="323dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="sap"
+							android:src="@drawable/sap" />
+
+					</RelativeLayout>
+
+					<TextView
+						android:id="@+id/liked_playlist_ek1"
+						android:layout_width="154dp"
+						android:layout_height="67dp"
+						android:layout_marginLeft="20dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="@font/poppins_bold"
+						android:text="@string/liked_playlist_ek1_string"
+						android:textColor="@color/settings_color"
+						android:textSize="18sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+				<EditText
+					android:id="@+id/find_in_liked_songs"
 					android:layout_width="300dp"
 					android:layout_height="wrap_content"
+					android:layout_marginLeft="70dp"
+					android:layout_marginTop="90dp"
+					android:fontFamily="@font/poppins_regular"
 					android:text="@string/find_in_liked_songs_string"
-					 />
+					android:textColor="@color/settings_color"
+					android:textSize="16sp" />
 
-				<View   android:id="@+id/search_bar"
-					android:background="@drawable/search_bar_shape"
-					 android:alpha="0.10000000149012"
-					 android:layout_marginStart="22dp"
-					android:layout_marginTop="92dp"
+				<View
+					android:id="@+id/search_bar"
 					android:layout_width="350dp"
-					android:layout_height="40dp" />
-
-
+					android:layout_height="40dp"
+					android:layout_marginStart="22dp"
+					android:layout_marginTop="92dp"
+					android:alpha="0.10000000149012"
+					android:background="@drawable/search_bar_shape" />
 
 
 			</RelativeLayout>

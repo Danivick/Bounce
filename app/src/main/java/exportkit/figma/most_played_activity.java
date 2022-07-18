@@ -89,7 +89,7 @@
                     }
                     switch (menuItem.getItemId()){
                         case R.id.search:
-                            startActivity(new Intent(getApplicationContext(), home_activity.class));
+                            startActivity(new Intent(getApplicationContext(), search_activity.class));
                             overridePendingTransition(0,0);
                             return true;
                     }
