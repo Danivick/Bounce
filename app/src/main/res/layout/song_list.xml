@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_bg__favorite_ek2_shape"
+    tools:context=".song_list_activity">
+    
+    <ListView
+        android:id="@+id/songlist_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:padding="8dp"
+        android:dividerHeight="10sp"/>
+        
+
+</RelativeLayout>

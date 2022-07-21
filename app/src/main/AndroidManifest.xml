@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="exportkit.figma">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
 
     <application
         android:allowBackup="true"
         android:label="Bounce"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".song_list_activity"
+            android:exported="false" />
         <activity
             android:name=".splash_activity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -31,6 +35,7 @@
         <activity android:name=".artists_activity" />
         <activity android:name=".artist_playlist_activity" />
         <activity android:name=".search_activity" />
+
 
         <meta-data
             android:name="preloaded_fonts"
